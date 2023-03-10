@@ -20,7 +20,7 @@ const tweetTwitterResolver: TweetResolvers<TwitterResolverContext> = {
 stats(tweet, _, { dbTweetToFavoriteCountMap}) {
     return {
         commentCount: 99,
-        retweetCount: 1,
+        retweetCount: 2,
         favoriteCount:
         dbTweetToFavoriteCountMap[tweet.id] || 0,
     }
