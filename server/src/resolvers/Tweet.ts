@@ -4,7 +4,7 @@ import { TweetResolvers } from "../resolvers-types.generated";
 
 const tweetTwitterResolver: TweetResolvers<TwitterResolverContext> = {
     author(tweet, _, { dbUserCache, dbTweetCache }) { 
-        const dbTweet = dbTweetCache[tweet.id]
+        const dbTweet = dbTweetCache[tweet.id];
  
     if (!dbTweet)
         throw new Error(
@@ -19,7 +19,7 @@ const tweetTwitterResolver: TweetResolvers<TwitterResolverContext> = {
 },
 stats(tweet, _, { dbTweetToFavoriteCountMap}) {
     return {
-        commentCount: 99,
+        commentCount: 98,
         retweetCount: 2,
         favoriteCount:
         dbTweetToFavoriteCountMap[tweet.id] || 0,

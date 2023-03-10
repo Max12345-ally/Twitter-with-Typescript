@@ -21,7 +21,7 @@ const queryTwitterResolver: QueryResolvers<TwitterResolverContext>  = {
         { db, dbTweetToFavoriteCountMap, dbUserCache, dbTweetCache }
     ) => {
         db.getAllUsers().forEach((user) => {
-            dbUserCache[user.id] = user;  
+            dbUserCache[user.id] = user;
         });
         db.getAllFavorites().forEach((favorite) => {
             const count = dbTweetToFavoriteCountMap[favorite.tweetId] || 0;
