@@ -146,6 +146,27 @@
       "createdAt": "2023-03-10T16:12:18.320Z",
       "updatedAt": "2023-03-10T16:12:18.320Z",
       "id": "favorite-425895a9-de2d-4987-8c5f-9ab9b68cb562"
+    },
+    {
+      "userId": "user-682aaa2e-0c9d-4bec-a8cc-24aff12b1737",
+      "tweetId": "tweet-d7b42502-ab98-468a-8c6e-524de997f8b2",
+      "createdAt": "2023-03-13T12:36:22.077Z",
+      "updatedAt": "2023-03-13T12:36:22.078Z",
+      "id": "favorite-8d9feec3-24de-4a95-a1f2-c6d4c66b571b"
+    },
+    {
+      "userId": "user-682aaa2e-0c9d-4bec-a8cc-24aff12b1737",
+      "tweetId": "tweet-c7159d60-ee61-4ab9-9d87-934a6d165aca",
+      "createdAt": "2023-03-13T12:36:24.636Z",
+      "updatedAt": "2023-03-13T12:36:24.636Z",
+      "id": "favorite-7e607a79-08c8-49e8-8c08-ba132412595d"
+    },
+    {
+      "userId": "user-682aaa2e-0c9d-4bec-a8cc-24aff12b1737",
+      "tweetId": "tweet-9e1c2905-71d5-4aaa-af5b-cf8f9d039e73",
+      "createdAt": "2023-03-13T12:36:29.725Z",
+      "updatedAt": "2023-03-13T12:36:29.725Z",
+      "id": "favorite-e6c7ca54-2717-4970-8c22-45d74575dd70"
     }
   ],
   "hashtagTrends": [
@@ -158,28 +179,19 @@
   ],
   "topicTrends": [
     {
-      "topic": "Frontend Masters",
-      "tweetCount": 12345,
-      "kind": "topic",
-      "id": "topictrend-c131ab5b-9540-48d6-9171-afe15c19fe80"
-    },
-    {
       "topic": "Pointless Suggestions",
       "tweetCount": 999,
       "kind": "topic",
       "id": "topictrend-6e913456-8fab-444d-91bf-3db4996e7bdb"
-    }
-  ],
-  "topicTrendQuotes": [
+    },
     {
       "topic": "Frontend Masters",
       "tweetCount": 12345,
-      "title": "Frontend Masters",
-      "description": "Launch of new full stack TS course",
-      "imageUrl": "http://localhost:3000/static/fem_logo.png",
-      "topicTrendId": "topictrend-c131ab5b-9540-48d6-9171-afe15c19fe80",
-      "id": "topictrendquote-28da57b5-b502-47f7-b3e7-ac9874cd0de5"
-    },
+      "kind": "topic",
+      "id": "topictrend-c131ab5b-9540-48d6-9171-afe15c19fe80"
+    }
+  ],
+  "topicTrendQuotes": [
     {
       "topic": "Pointless Suggestions",
       "tweetCount": 999,
@@ -188,6 +200,15 @@
       "imageUrl": "http://localhost:3000/static/clippy-logo.jpeg",
       "topicTrendId": "topictrend-6e913456-8fab-444d-91bf-3db4996e7bdb",
       "id": "topictrendquote-9aec7137-90fb-4c44-a042-aca617cae94a"
+    },
+    {
+      "topic": "Frontend Masters",
+      "tweetCount": 12345,
+      "title": "Frontend Masters",
+      "description": "Launch of new full stack TS course",
+      "imageUrl": "http://localhost:3000/static/fem_logo.png",
+      "topicTrendId": "topictrend-c131ab5b-9540-48d6-9171-afe15c19fe80",
+      "id": "topictrendquote-28da57b5-b502-47f7-b3e7-ac9874cd0de5"
     }
   ],
   "suggestions": [

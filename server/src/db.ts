@@ -10,7 +10,7 @@ export interface DbEntity {
 }
 
 export interface DbTweet extends DbEntity {
-  td: any;
+  id: any;
   message: string;
   userId: string;
 }

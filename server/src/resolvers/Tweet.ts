@@ -1,6 +1,7 @@
-
 import { TwitterResolverContext } from "../resolvers";
 import { TweetResolvers } from "../resolvers-types.generated";
+import { gql } from "@apollo/client"
+
 
 const tweetTwitterResolver: TweetResolvers<TwitterResolverContext> = {
     author(tweet, _, { dbUserCache, dbTweetCache }) { 

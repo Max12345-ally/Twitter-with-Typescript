@@ -1,6 +1,7 @@
 import { tweetTransform } from "../transforms";
 import { TwitterResolverContext } from "../resolvers";
 import { MutationResolvers } from "../resolvers-types.generated"
+import { favoriteTransform } from "../transforms";
 
 const mutationTwitterResolver: MutationResolvers<TwitterResolverContext> = {
     async createTweet(_parent, args, { dbTweetCache, db}) {
@@ -10,10 +11,30 @@ const mutationTwitterResolver: MutationResolvers<TwitterResolverContext> = {
             userId,
         });
         const dbTweetMap = (dbTweetCache ||= {});
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
-        dbTweetMap[dbTweet.td] = dbTweet;
+        
+        dbTweetMap[dbTweet.id] = dbTweet;
         return tweetTransform(dbTweet);
     },
+    async createFavorite(_parent, args, { db }) {
+        const { favorite } = args;
+        const fav = await db.createFavorite(favorite)
+        return {
+            ...favoriteTransform(fav),
+            user: db.getUserById(fav.userId),
+            tweet: tweetTransform(db.getTweetById(fav.tweetId)),
+        };
+    },
+
+    async deleteFavorite(_parent, args, { db }) {
+        const { favorite } = args;
+        const fav = await db.deleteFavorite(favorite)
+        return {
+            ...favoriteTransform(fav),
+            user: db.getUserById(fav.userId),
+            tweet: tweetTransform(db.getTweetById(fav.tweetId)),
+        }
+    }
+
 };
 
 export default mutationTwitterResolver
