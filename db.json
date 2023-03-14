@@ -163,10 +163,59 @@
     },
     {
       "userId": "user-682aaa2e-0c9d-4bec-a8cc-24aff12b1737",
-      "tweetId": "tweet-9e1c2905-71d5-4aaa-af5b-cf8f9d039e73",
-      "createdAt": "2023-03-13T12:36:29.725Z",
-      "updatedAt": "2023-03-13T12:36:29.725Z",
-      "id": "favorite-e6c7ca54-2717-4970-8c22-45d74575dd70"
+      "tweetId": "tweet-2b220e40-c244-43ce-9b07-433c300b1c25",
+      "createdAt": "2023-03-14T08:40:26.332Z",
+      "updatedAt": "2023-03-14T08:40:26.332Z",
+      "id": "favorite-1d59f0d6-43a2-460f-90a0-a1e2712e7ad9"
+    },
+    {
+      "userId": "user-682aaa2e-0c9d-4bec-a8cc-24aff12b1737",
+      "tweetId": "tweet-2b220e40-c244-43ce-9b07-433c300b1c25",
+      "createdAt": "2023-03-14T08:40:28.023Z",
+      "updatedAt": "2023-03-14T08:40:28.023Z",
+      "id": "favorite-14ce53d9-b633-402c-9350-59309364779f"
+    },
+    {
+      "userId": "user-682aaa2e-0c9d-4bec-a8cc-24aff12b1737",
+      "tweetId": "tweet-2b220e40-c244-43ce-9b07-433c300b1c25",
+      "createdAt": "2023-03-14T08:40:30.107Z",
+      "updatedAt": "2023-03-14T08:40:30.107Z",
+      "id": "favorite-51d5926e-8dd3-455a-8ea4-12bfe9eabb74"
+    },
+    {
+      "userId": "user-682aaa2e-0c9d-4bec-a8cc-24aff12b1737",
+      "tweetId": "tweet-2b220e40-c244-43ce-9b07-433c300b1c25",
+      "createdAt": "2023-03-14T08:40:30.830Z",
+      "updatedAt": "2023-03-14T08:40:30.830Z",
+      "id": "favorite-37ef9bf2-68de-41d4-a061-7e2401329998"
+    },
+    {
+      "userId": "user-682aaa2e-0c9d-4bec-a8cc-24aff12b1737",
+      "tweetId": "tweet-2b220e40-c244-43ce-9b07-433c300b1c25",
+      "createdAt": "2023-03-14T08:40:31.780Z",
+      "updatedAt": "2023-03-14T08:40:31.780Z",
+      "id": "favorite-51c37ae1-9e29-4290-adea-4cfcf26dbdc2"
+    },
+    {
+      "userId": "user-682aaa2e-0c9d-4bec-a8cc-24aff12b1737",
+      "tweetId": "tweet-2b220e40-c244-43ce-9b07-433c300b1c25",
+      "createdAt": "2023-03-14T08:40:33.929Z",
+      "updatedAt": "2023-03-14T08:40:33.929Z",
+      "id": "favorite-a3162a3a-0943-4be1-a367-fdf3cdb5d8a5"
+    },
+    {
+      "userId": "user-682aaa2e-0c9d-4bec-a8cc-24aff12b1737",
+      "tweetId": "tweet-fab32181-b5ad-458a-8be1-99ea69378901",
+      "createdAt": "2023-03-14T08:40:39.510Z",
+      "updatedAt": "2023-03-14T08:40:39.510Z",
+      "id": "favorite-5b072f25-d5be-4636-a7e9-76cb306a8771"
+    },
+    {
+      "userId": "user-682aaa2e-0c9d-4bec-a8cc-24aff12b1737",
+      "tweetId": "tweet-fab32181-b5ad-458a-8be1-99ea69378901",
+      "createdAt": "2023-03-14T08:40:40.175Z",
+      "updatedAt": "2023-03-14T08:40:40.175Z",
+      "id": "favorite-b2e5fb07-8665-498a-9fbc-08ef70f16204"
     }
   ],
   "hashtagTrends": [

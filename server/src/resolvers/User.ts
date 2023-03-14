@@ -21,7 +21,7 @@ const userTwitterResolver: UserResolvers<TwitterResolverContext> = {
             })
         }
     }
-
+        
 
 
     export default userTwitterResolver
